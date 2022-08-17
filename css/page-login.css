@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #292929;
+  background-color: white;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+::selection {
+  background-color: #b8a07e;
+  color: white;
+}
+.limiter {
+  width: 100%;
+  margin: 0 auto;
+}
+.container-login {
+  background-image: url(../img/background/d.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 695px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.wrap-login {
+  width: 600px;
+  height: 475px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.size-padding {
+  padding-left: 55px;
+  padding-top: 65px;
+  padding-right: 55px;
+  padding-bottom: 54px;
+}
+.login-form {
+  width: 100%;
+}
+.login-form-title {
+  display: block;
+  font-family: Poppins;
+  font-size: 39px;
+  color: #333333;
+  line-height: 1.2;
+  text-align: center;
+  font-weight: 600;
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+.validate-input {
+  position: relative;
+}
+.wrap-input {
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid #d9d9d9;
+}
+.label-input {
+  font-family: Poppins;
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.5;
+  padding-left: 7px;
+}
+.input {
+  font-family: Poppins;
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.2;
+  display: block;
+  width: 100%;
+  height: 55px;
+  background: transparent;
+  padding: 0 7px 0 43px;
+  font-weight: 500;
+  opacity: 0.7;
+  margin-left: -28px;
+}
+input {
+  outline: none;
+  border: none;
+}
+input {
+  margin: 0;
+}
+a {
+  font-family: Poppins;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0px;
+  transition: all 0.4s;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.container-login-form-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+a:hover {
+  color: #806e52;
+}
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  margin-top: 50px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 10px 225px;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #fed136;
+  border-color: #fed136;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #ffb300;
+  border-color: #fec503;
+  cursor: pointer;
+}
